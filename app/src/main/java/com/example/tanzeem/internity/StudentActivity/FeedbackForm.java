@@ -85,10 +85,6 @@ public class FeedbackForm extends AppCompatActivity implements AdapterView.OnIte
 
                 progressDialog.dismiss();
 
-                startActivity(new Intent(FeedbackForm.this,StudentDashboard.class));
-
-                Toast.makeText(getApplication(),"Feedback Form submitted sucessfully",Toast.LENGTH_SHORT).show();
-
             }
         });
 
@@ -158,6 +154,7 @@ public class FeedbackForm extends AppCompatActivity implements AdapterView.OnIte
         if (TextUtils.isEmpty(ff_email) || TextUtils.isEmpty(ff_name) || TextUtils.isEmpty(ff_stream) ||
                 TextUtils.isEmpty(ff_learned) || TextUtils.isEmpty(ff_expectations) || TextUtils.isEmpty(ff_added) ||
                 TextUtils.isEmpty(ff_removed) || TextUtils.isEmpty(ff_best)){
+
             Toast.makeText(this,"Enter all fields",Toast.LENGTH_SHORT).show();
         }
         else{
@@ -180,6 +177,10 @@ public class FeedbackForm extends AppCompatActivity implements AdapterView.OnIte
             reference.child("RateAttendence").setValue(spinner_val4);
             reference.child("RateCoach").setValue(spinner_val5);
             reference.child("Key").setValue(key);
+
+            startActivity(new Intent(FeedbackForm.this,StudentDashboard.class));
+
+            Toast.makeText(getApplication(),"Feedback Form submitted sucessfully",Toast.LENGTH_SHORT).show();
         }
     }
 
