@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "262943179603",
+    "firebase_url": "https://internity-application.firebaseio.com",
+    "project_id": "internity-application",
+    "storage_bucket": "internity-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262943179603:android:090f45bd5b9c20e7",
+        "android_client_info": {
+          "package_name": "com.example.tanzeem.internity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262943179603-5f63ighlka867g5fkmtbp01men4t9lal.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tanzeem.internity",
+            "certificate_hash": "677f32dfb04c54b3f61653b8e9eb38c85ece753c"
+          }
+        },
+        {
+          "client_id": "262943179603-4t243f4kcvfln6oi9eak5vc06q0tnehs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyc3pQhn8XRH8N8e--QwQ6QUYiS_CsWjo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262943179603-4t243f4kcvfln6oi9eak5vc06q0tnehs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
